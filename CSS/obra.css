@@ -1,0 +1,363 @@
+@media screen and (max-height: 1920px){
+	html{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body{
+		background-image: url(../Fotos/fondo.png);
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+	/* A N I M A T I O N S */
+
+	@keyframes virusL {
+	  0%   {left:-100px;}
+	  50%  {left:0px;}
+	  100% {left:100px;}
+	}
+
+
+
+	/* H E A D E R */
+	.header{
+	  padding-bottom:10px;
+	  margin-left: 50px;
+	  margin-right: 50px;
+	  text-align:center;
+	  border: 2px black solid;
+	  border-top-left-radius: 35%;
+	  border-bottom-right-radius: 35%;
+	  background: rgb(21,189,178);
+	  background: linear-gradient(0deg, rgba(21,189,178,1) 2%, rgba(45,53,115,0) 49%, rgba(55,181,110,1) 98%);
+	}
+
+
+	h1{
+		text-align: center;
+		color:black;
+		font-family: Verdana;
+		font-size: 70px;
+	}
+
+
+
+	/* N A V I G A T I O N */
+	.navigation{
+		text-align: center;
+		background-color: lightgrey;
+
+		flex: top;
+
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	li{
+		display: inline-block;
+		margin: 0px 3px;
+		margin: 30px;
+		font-size: 50px;
+	}
+
+	li a:hover{
+		text-decoration: underline;
+		text-decoration-color: yellow;
+	}
+
+
+
+	/* C E N T R A L   C O N T A I N E R */
+
+	.container{
+		margin-top: 20px;
+	  	margin-left: 50px;
+	    margin-right: 50px;
+	    margin-bottom: 10px;
+
+
+	    padding-left: 10px;
+	    padding-right: 10px;
+
+		text-align:center;
+
+		height: 100%;
+
+		border-bottom: 2px black solid;
+	}
+
+	img{
+		border: 3px solid black;
+	  	border-radius: 4px;
+	  	padding: 3px;
+	  	width: 150px;
+	  	float: top;
+	  	margin-top: 20px;
+	  	height: 350px;
+	  	width: 350px;
+	}
+
+	div .virusL{
+		height: 80px;
+		width: 80px;
+	    animation-name: virusLeft;
+	  	animation-duration: 4s;
+	  	animation-iteration-count: infinite;
+
+	}
+
+	.virusR{
+		height: 80px;
+		width: 80px;
+	    animation-name: virusL;
+	  	animation-duration: 4s;
+	  	animation-iteration-count: infinite; 
+	  	animation-direction: alternate; 
+	}
+
+	.container div p{
+		font-size: 30px;
+		font-family: Verdana;
+		text-align: center;
+		color: white;
+	}
+
+	.left{
+		position: relative;
+		margin-top: 25px;
+		border: 4px black solid;
+		border-radius: 20px;
+		text-align: center;
+		background: rgba(76, 175, 80, 0.3);
+		display: flex;
+	}
+
+	.imgpremi{
+		height: 150px;
+		width: 150px;
+		margin: 50px;
+	}
+
+	.right{
+		position: relative;
+		margin-top: 25px;
+		border: 4px black solid;
+		border-radius: 20px;
+		text-align: center;
+		background: rgba(76, 175, 80, 0.3);
+	}
+
+
+	h2{
+		font-size: 45px;
+		text-decoration: underline;
+	}
+
+
+	p.disp1 {
+		font-size: 20px;
+	}
+
+
+
+	/* F O O T E R */
+	footer{
+		text-align: center;
+		background-color: white;
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+
+	footer a:hover{
+		text-decoration: none;
+	}
+
+	footer a{
+		text-decoration: none;
+	}
+}
+
+@media screen and (max-width: 1080px){
+	html{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body{
+		background-image: url(../Fotos/fondo.png);
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+	/* A N I M A T I O N S */
+
+	@keyframes virusL {
+	  0%   {left:-100px;}
+	  50%  {left:0px;}
+	  100% {left:100px;}
+	}
+
+
+
+	/* H E A D E R */
+	.header{
+	  padding-bottom:10px;
+	  margin-left: 50px;
+	  margin-right: 50px;
+	  text-align:center;
+	  border: 2px black solid;
+	  border-top-left-radius: 35%;
+	  border-bottom-right-radius: 35%;
+	  background: rgb(21,189,178);
+	  background: linear-gradient(0deg, rgba(21,189,178,1) 2%, rgba(45,53,115,0) 49%, rgba(55,181,110,1) 98%);
+	}
+
+
+	h1{
+		text-align: center;
+		color:black;
+		font-family: Verdana;
+		font-size: 70px;
+	}
+
+
+
+	/* N A V I G A T I O N */
+	.navigation{
+		text-align: center;
+		background-color: lightgrey;
+
+		flex: top;
+
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	li{
+		display: inline-block;
+		margin: 0px 3px;
+		margin: 30px;
+		font-size: 50px;
+	}
+
+	li a:hover{
+		text-decoration: underline;
+		text-decoration-color: yellow;
+	}
+
+
+
+	/* C E N T R A L   C O N T A I N E R */
+
+	.container{
+		margin-top: 20px;
+	  	margin-left: 50px;
+	    margin-right: 50px;
+	    margin-bottom: 10px;
+
+
+	    padding-left: 10px;
+	    padding-right: 10px;
+
+		text-align:center;
+
+		height: 100%;
+
+		border-bottom: 2px black solid;
+	}
+
+	img{
+		border: 3px solid black;
+	  	border-radius: 4px;
+	  	padding: 3px;
+	  	width: 150px;
+	  	float: top;
+	  	margin-top: 20px;
+	  	height: 350px;
+	  	width: 350px;
+	}
+
+	div .virusL{
+		height: 80px;
+		width: 80px;
+	    animation-name: virusLeft;
+	  	animation-duration: 4s;
+	  	animation-iteration-count: infinite;
+	  	animation-direction: alternate; 
+	}
+
+	.virusR{
+		height: 80px;
+		width: 80px;
+	    animation-name: virusL;
+	  	animation-duration: 4s;
+	  	animation-iteration-count: infinite; 
+	  	animation-direction: alternate; 
+	}
+
+	.container div p{
+		font-size: 30px;
+		font-family: Verdana;
+		text-align: center;
+		color: white;
+	}
+
+	.left{
+		position: relative;
+		margin-top: 25px;
+		border: 4px black solid;
+		border-radius: 20px;
+		text-align: center;
+		background: rgba(76, 175, 80, 0.3);
+		display: flex;
+	}
+
+	.imgpremi{
+		height: 150px;
+		width: 150px;
+		margin: 50px;
+	}
+
+	.right{
+		position: relative;
+		margin-top: 25px;
+		border: 4px black solid;
+		border-radius: 20px;
+		text-align: center;
+		background: rgba(76, 175, 80, 0.3);
+	}
+
+
+	h2{
+		font-size: 45px;
+		text-decoration: underline;
+	}
+
+
+	p.disp1 {
+		font-size: 20px;
+	}
+
+
+
+	/* F O O T E R */
+	footer{
+		text-align: center;
+		background-color: white;
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+
+	footer a:hover{
+		text-decoration: none;
+	}
+
+	footer a{
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,327 @@
+@media screen and (max-height: 1920px){	
+	html{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	@keyframes rotationL {
+		from {transform: rotate(-45deg);}
+		to {transform: rotate(45deg);}
+	}
+
+	@keyframes rotationR {
+		from {
+			transform: rotate(45deg);
+		}
+		to {
+			transform: rotate(-45deg);
+		}
+	}
+
+	body{
+		background-image: url(../Fotos/fondo.png);
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.header{
+	  padding-bottom:10px;
+	  margin-left: 50px;
+	  margin-right: 50px;
+	  text-align:center;
+	  border: 2px black solid;
+	  border-top-left-radius: 35%;
+	  border-bottom-right-radius: 35%;
+	  background: rgb(21,189,178);
+	  background: linear-gradient(0deg, rgba(21,189,178,1) 2%, rgba(45,53,115,0) 49%, rgba(55,181,110,1) 98%);
+	}
+
+
+	h1{
+		text-align: center;
+		color:black;
+		font-family: Verdana;
+		font-size: 70px;
+	}
+
+	.container{
+		margin-top: 20px;
+	  	margin-left: 50px;
+	    margin-right: 50px;
+	    margin-bottom: 10px;
+
+
+	    padding-left: 10px;
+	    padding-right: 10px;
+
+		text-align:center;
+
+		display: flex;
+
+		height: 100%;
+
+		border-bottom: 2px black solid;
+	}
+
+	img{
+		border: 3px solid black;
+	  	border-radius: 4px;
+	  	padding: 3px;
+	  	width: 150px;
+	  	float: top;
+	  	margin-top: 20px;
+	  	height: 350px;
+	  	width: 350px;
+	}
+
+	.microL{
+		height: 80px;
+		width: 80px;
+		animation-name: rotationL;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+	    animation-direction: alternate;
+	}
+
+	.microR{
+		height: 80px;
+		width: 80px;
+		animation-name: rotationR;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+	    animation-direction: alternate;
+	}
+
+	.navigation{
+		text-align: center;
+		background-color: lightgrey;
+
+		flex: top;
+
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	li{
+		display: inline-block;
+		margin: 0px 3px;
+		margin: 70px;
+		font-size: 50px;
+	}
+
+	li a:hover{
+		text-decoration: underline;
+		text-decoration-color: yellow;
+	}
+
+	.LeftLateral p{
+
+
+		font-size: 30px;
+		font-family: Verdana;
+		text-align: left;
+		color: white;
+	}
+
+	.LeftLateral {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 0px;
+		
+		float: left;
+		width: 100%;
+	}
+
+
+	.RightLateral p{
+
+		font-size: 30px;
+		font-family: Verdana;
+		text-align: left;
+		color: white;
+		
+	}
+
+	.RightLateral{
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 0px;
+
+
+		float: right;
+		
+		width: 100%;
+	}
+
+	footer{
+		text-align: center;
+		background-color: white;
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+}
+
+@media screen and (max-width: 1080px){
+	html{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	@keyframes rotationL {
+		from {transform: rotate(-45deg);}
+		to {transform: rotate(45deg);}
+	}
+
+	@keyframes rotationR {
+		from {
+			transform: rotate(45deg);
+		}
+		to {
+			transform: rotate(-45deg);
+		}
+	}
+
+	body{
+		background-image: url(../Fotos/fondo.png);
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.header{
+	  padding-bottom:10px;
+	  margin-left: 50px;
+	  margin-right: 50px;
+	  text-align:center;
+	  border: 2px black solid;
+	  border-top-left-radius: 35%;
+	  border-bottom-right-radius: 35%;
+	  background: rgb(21,189,178);
+	  background: linear-gradient(0deg, rgba(21,189,178,1) 2%, rgba(45,53,115,0) 49%, rgba(55,181,110,1) 98%);
+	}
+
+
+	h1{
+		text-align: center;
+		color:black;
+		font-family: Verdana;
+		font-size: 70px;
+	}
+
+	.container{
+		margin-top: 20px;
+	  	margin-left: 50px;
+	    margin-right: 50px;
+	    margin-bottom: 10px;
+
+
+	    padding-left: 10px;
+	    padding-right: 10px;
+
+		text-align:center;
+
+		display: flex;
+
+		height: 100%;
+
+		border-bottom: 2px black solid;
+	}
+
+	img{
+		border: 3px solid black;
+	  	border-radius: 4px;
+	  	padding: 3px;
+	  	width: 150px;
+	  	float: top;
+	  	margin-top: 20px;
+	  	height: 350px;
+	  	width: 350px;
+	}
+
+	.microL{
+		height: 80px;
+		width: 80px;
+		animation-name: rotationL;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+	    animation-direction: alternate;
+	}
+
+	.microR{
+		height: 80px;
+		width: 80px;
+		animation-name: rotationR;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+	    animation-direction: alternate;
+	}
+
+	.navigation{
+		text-align: center;
+		background-color: lightgrey;
+
+		flex: top;
+
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	li{
+		display: inline-block;
+		margin: 0px 3px;
+		margin: 70px;
+		font-size: 50px;
+	}
+
+	li a:hover{
+		text-decoration: underline;
+		text-decoration-color: yellow;
+	}
+
+	.LeftLateral p{
+
+
+		font-size: 30px;
+		font-family: Verdana;
+		text-align: left;
+		color: white;
+	}
+
+	.LeftLateral {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 0px;
+		
+		float: left;
+		width: 100%;
+	}
+
+
+	.RightLateral p{
+
+		font-size: 30px;
+		font-family: Verdana;
+		text-align: left;
+		color: white;
+		
+	}
+
+	.RightLateral{
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 0px;
+
+
+		float: right;
+		
+		width: 100%;
+	}
+
+	footer{
+		text-align: center;
+		background-color: white;
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+}
